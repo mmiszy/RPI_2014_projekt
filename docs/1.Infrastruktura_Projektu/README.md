@@ -25,7 +25,20 @@ Opis projektu i produktu
 
 5. Współdzielenie dokumentów i kodu
 ----
-(sposób wymiany dokumentów i kodu w zespole, adres i sposób dostępu do repozytorium, osoba odpowiedzialna za konfigurację i utrzymanie repozytorium)
+
+###Repozytorium
+
+Kod źródłowy oraz dokumentacja trzymane są w repozytorium na git na GitHubie: https://github.com/RPI-2014/RPI_2014_projekt
+
+Projekt jest Open Source, a więc każda osoba ma możliwość przeglądania zawartości repozytorium.
+
+Osobą odpowiedzialną za konfigurację i utrzymanie głównego repozytorium jest **Michał Miszczyszyn**.
+
+###Wprowadzania zmian
+
+**Aby pracować nad projektem trzeba wykonać fork tego repozytorium na swoje konto.**
+
+Po zakończeniu wprowadzania zmian lokalnie, należy wykonać commit do swojego forka, a następnie wystawić pull-request do odpowiedniego brancha głównego repozytorium. **Ważne jest, aby pull request składał się wyłącznie z jednego commita i zawierał krótki, ale tręściwy opis wprowadzanych zmian.** [Instrukcja łączenia commitów w gicie](instrukcja_rebase.md).
 
 
 6. Narzędzia
