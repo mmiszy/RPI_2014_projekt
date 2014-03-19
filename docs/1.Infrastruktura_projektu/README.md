@@ -8,7 +8,7 @@ Opis projektu i produktu
 
 ###Projekt:
 
-Przedmiotem projektu jest przeglądarka internetowa `NAZWA`.
+Przedmiotem projektu jest przeglądarka internetowa **Firesocks**.
 
 ###Cel projektu i obszar zastosowania:
 
@@ -21,15 +21,17 @@ Dodatkowym zadaniem projektu jest dostarczenie klientom przeglądarki, która b�
 
 Klientami naszego produktu są wszyscy, ktorzy pragną bezpiecznie i efektywnie przeglądać zasoby internetowe. 
 Jedynymi wymaganiami są:
+
 * podstawowa umiejętność obsługi komputera.
 * umiejętność czytania. 
 * znajomość języka angielskiego lub polskiego.
-* sprawny wzrok. (nie przwidujemy wersji dla niewidomych)
+* sprawny wzrok (nie przwidujemy wersji dla niewidomych)
 
 ###Współpracujące systemy:
 
 Nasz produkt współpracuje z większością popularnych systemów operacyjnych takich jak:
-* Mac OS
+
+* Mac OSX
 * Windows
 * Linux Ubuntu/Fedora/RedHat/CentOS
 
@@ -40,14 +42,14 @@ Prace prowadzone są w wynajętym biurze w jednym miejscu. W razie potrzeb jest 
 
 Osoby, które tworzą ten projekt:
 
-| Pseudonim     | Rola          | Doświadczenie   | Praca Zdalna |  
-|:-------------:|:-------------:|:---------------:|:-------:|
-| mmiszy   | programista | Duże | Nie |
-| Bplotka     | programista      |   Średnie | Nie |
-| nicra | programista      |  Duże | Nie |
-| klayer88 | programista | Małe | Nie |
-| graficzex | frontend | Duże | Nie |
-| @itgg2 | analityk IT | Średnie | Tak | 
+| Pseudonim | Rola        | Doświadczenie | Praca Zdalna |  
+|:---------:|:-----------:|:-------- ----:|:------------:|
+| Bplotka   | team lead   | Duże          | Nie          |
+| mmiszy    | programista | Duże          | Nie          |
+| nicra     | programista | Duże          | Nie          |
+| klayer88  | design & UX | Średnie       | Tak          |
+| graficzex | front-end   | Duże          | Nie          |
+| @itgg2    | analityk IT | Średnie       | Tak          | 
 
 
 3. Komunikacja w zespole
@@ -55,7 +57,7 @@ Osoby, które tworzą ten projekt:
 
 ###Organizacja spotkań:
 
-Jako że projekt jest wytwarzany metodyką `zwinną` (agile) to krótkie spotkania występują codziennie o 10:00 w systemie "scrum".
+Jako że projekt jest wytwarzany metodyką `zwinną` (agile) to krótkie spotkania występują codziennie o 10:00 w systemie Scrum. Aplikacja wytwarzana jest w krótkich, najczęściej 2- lub 3-tygodniowych etapach (sprintach), które kończą się wydaniem kolejnej wersji aplikacji.
 
 Co tydzień spotykamy się także na tzw. `Architecture meeting`, aby uzgodnić sprawy dotyczące architektury produktu, czy nowych rozwiązań.
 
@@ -64,20 +66,22 @@ Wszystkie spotkania odbywają się w biurze, jednak możliwe jest dołączenie d
 ###Komunikacja:
 
 Komunikacja może odbywać się na wiele różnych sposobów. W zależności od priorytetu rozmowy oraz sytuacji:
-* Komunikacja osobista w biurze
+* Komunikacja osobista w biurze* 
 * Komunikator 
+* Komentarz w kodzie na GitHubie
+* GitHub Issue
 * Mail
-* Telefonicznie (Tylko w razie nagłych spraw)
+* Telefonicznie (tylko w razie nagłych spraw)
 
 ###Komunikacja z klientem:
 
-Projekt jest produktem typu OpenSource istniejącym na serwisie [GitHub] (https://github.com/RPI-2014/RPI_2014_projekt), zatem klienci i użytkownicy mogą bardzo łatwo zgłaszać sprawy, problemy lub defekty dotyczące projektu na: [GitHub issues](https://github.com/RPI-2014/RPI_2014_projekt/issues)
+Projekt jest produktem typu OpenSource rozwijanym w serwisie [GitHub] (https://github.com/RPI-2014/RPI_2014_projekt), zatem klienci i użytkownicy mogą bardzo łatwo zgłaszać problemy lub defekty dotyczące projektu na: [GitHub issues](https://github.com/RPI-2014/RPI_2014_projekt/issues)
 
 ###Kontakt:
 
 Aby skontaktować się z osobą z tego zespołu wystarczy znaleźć jej profil na serwisie GitHub: `https://github.com/pseudonim`
 
-W tym miejszu znajduje się sposób komunikacji z daną osobą.
+W tym miejszu znajduje się informacja dotycząca sposobu komunikacji z daną osobą.
 
 4. Dokumentacja
 ----
@@ -184,7 +188,7 @@ Aby usprawnić proces tworzenia oprogramowania wykorzystujemy w naszym projekcie
 
 ###Narzędzia wspomagające komunikacje:
 
-* Komunikator (np. Skype)
+* Komunikator (Skype, HipChat)
 * e-mail
 * serwis GitHub (m.in. GitHub issues)
 
@@ -194,16 +198,19 @@ Aby usprawnić proces tworzenia oprogramowania wykorzystujemy w naszym projekcie
 
 ###Narzędzia wspomagające tworzenie kodu:
 
-* Eclipse 
+* Eclipse
+* Visual Studio 2013 Ultimate
+* Sublime Text 3
 * Git
+* GitHub - przegląd kodu (*code review*)
 
 ###Narzędzia wspomagające testowanie i kontrole nad defektami:
 
 * Bugzilla
-* Google Test Framework (Unit testy)
+* Google Test Framework (Testy jednostkowe)
+* FitNesse (Testy akceptacyjne)
 
 ###Narzędzia wspomagające tworzenie dokumentacji:
 
-* MS Office
-* Edytory tekstu
-* PDF Reader
+* FitNesse - tzw. żywa dokumentacja (*living documentation*)
+
