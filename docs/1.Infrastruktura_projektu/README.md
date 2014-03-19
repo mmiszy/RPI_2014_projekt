@@ -5,18 +5,79 @@ Opis projektu i produktu
 
 1. Infrastruktura projektu
 ----
-(nazwa projektu/produktu, adresowany problem, obszar zastosowania, rynek, użytkownicy i ich problemy, cel i zakres produktu, inne współpracujące systemy)
 
+###Projekt:
+
+Przedmiotem projektu jest przeglądarka internetowa `NAZWA`.
+
+###Cel projektu i obszar zastosowania:
+
+Produkt umożliwiać będzie szybkie, bezpieczne i ekfektywne przeglądanie zasobów internetowych z pełną obsługą multimediów, stanowiąc doskonałe rozwiązanie dla wszystkich internautów bez względu na stopień ich zaawansowania. 
+Zarówno dla osób starszych jak i młodych interfejs będzie intuicyjny i przejrzysty, oferując przy tym cieszący oko wygląd.
+Dzięki obsłudze szerokiej gamy multimediów i rozmaitych plików przeglądarka zadowoli najbardziej wymagających klientów.
+Dodatkowym zadaniem projektu jest dostarczenie klientom przeglądarki, która będzie kompatybilna z najnowszymi technologiami (tj. najnowsze jQuery czy w przyszłości html6).
+
+###Rynek:
+
+Klientami naszego produktu są wszyscy, ktorzy pragną bezpiecznie i efektywnie przeglądać zasoby internetowe. 
+Jedynymi wymaganiami są:
+* podstawowa umiejętność obsługi komputera.
+* umiejętność czytania. 
+* znajomość języka angielskiego lub polskiego.
+* sprawny wzrok. (nie przwidujemy wersji dla niewidomych)
+
+###Współpracujące systemy:
+
+Nasz produkt współpracuje z większością popularnych systemów operacyjnych takich jak:
+* Mac OS
+* Windows
+* Linux Ubuntu/Fedora/RedHat/CentOS
 
 2. Organizacja zespołu projektu
 ----
-(kto jest w zespole, role, doświadczenie, umiejętności, praca w rozproszeniu czy w jednym miejscu, można dodać fikcyjne osoby do zespołu, ale zespół nie powinien być większy niż 7 osób)
+
+Prace prowadzone są w wynajętym biurze w jednym miejscu. W razie potrzeb jest możliwa także praca zdalna.
+
+Osoby, które tworzą ten projekt:
+
+| Pseudonim     | Rola          | Doświadczenie   | Praca Zdalna |  
+|:-------------:|:-------------:|:---------------:|:-------:|
+| mmiszy   | programista | Duże | Nie |
+| Bplotka     | programista      |   Średnie | Nie |
+| nicra | programista      |  Duże | Nie |
+| klayer88 | programista | Małe | Nie |
+| graficzex | frontend | Duże | Nie |
+| @itgg2 | analityk IT | Średnie | Tak | 
 
 
 3. Komunikacja w zespole
 ----
-(sposoby komunikacji, środki komunikacji, organizacja spotkań, komunikacja z otoczeniem projektu – z klientem, użytkownikami, dane kontaktowe osób w zespole)
 
+###Organizacja spotkań:
+
+Jako że projekt jest wytwarzany metodyką `zwinną` (agile) to krótkie spotkania występują codziennie o 10:00 w systemie "scrum".
+
+Co tydzień spotykamy się także na tzw. `Architecture meeting`, aby uzgodnić sprawy dotyczące architektury produktu, czy nowych rozwiązań.
+
+Wszystkie spotkania odbywają się w biurze, jednak możliwe jest dołączenie do nich za pomocą wideokonferencji.
+
+###Komunikacja:
+
+Komunikacja może odbywać się na wiele różnych sposobów. W zależności od priorytetu rozmowy oraz sytuacji:
+* Komunikacja osobista w biurze
+* Komunikator 
+* Mail
+* Telefonicznie (Tylko w razie nagłych spraw)
+
+###Komunikacja z klientem:
+
+Projekt jest produktem typu OpenSource istniejącym na serwisie [GitHub] (https://github.com/RPI-2014/RPI_2014_projekt), zatem klienci i użytkownicy mogą bardzo łatwo zgłaszać sprawy, problemy lub defekty dotyczące projektu na: [GitHub issues](https://github.com/RPI-2014/RPI_2014_projekt/issues)
+
+###Kontakt:
+
+Aby skontaktować się z osobą z tego zespołu wystarczy znaleźć jej profil na serwisie GitHub: `https://github.com/pseudonim`
+
+W tym miejszu znajduje się sposób komunikacji z daną osobą.
 
 4. Dokumentacja
 ----
@@ -118,4 +179,31 @@ Po zakończeniu wprowadzania zmian lokalnie, należy wykonać commit i push do s
 
 6. Narzędzia
 ----
-(narzędzia wspierające obszary z punktów 3, 4 i 5, narzędzia wspomagające organizację projektu, modelowanie, tworzenie dokumentów, wytwarzanie i testowanie systemu)
+
+Aby usprawnić proces tworzenia oprogramowania wykorzystujemy w naszym projekcie następujące narzędzia: 
+
+###Narzędzia wspomagające komunikacje:
+
+* Komunikator (np. Skype)
+* e-mail
+* serwis GitHub (m.in. GitHub issues)
+
+###Narzędzia wspomagające modelowanie:
+
+* MS Visio
+
+###Narzędzia wspomagające tworzenie kodu:
+
+* Eclipse 
+* Git
+
+###Narzędzia wspomagające testowanie i kontrole nad defektami:
+
+* Bugzilla
+* Google Test Framework (Unit testy)
+
+###Narzędzia wspomagające tworzenie dokumentacji:
+
+* MS Office
+* Edytory tekstu
+* PDF Reader
