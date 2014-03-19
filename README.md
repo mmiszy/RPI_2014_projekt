@@ -1,8 +1,8 @@
 #Projekt RPI
 
-* Michał Miszczyszyn
-* Bartłomiej Płotka
-* Marcin Piątkowski
+* Michał Miszczyszyn (137347)
+* Bartłomiej Płotka (137378)
+* Marcin Piątkowski (137371)
 
 ##Dokumentacja
 Dokumentacja jest dostępna w katalogu [docs](/docs).
