@@ -42,8 +42,8 @@ Prace prowadzone są w wynajętym biurze w jednym miejscu. W razie potrzeb jest 
 
 Osoby, które tworzą ten projekt:
 
-| Pseudonim | Rola        | Doświadczenie | Praca Zdalna |  
-|:---------:|:-----------:|:-------- ----:|:------------:|
+| Pseudonim | Rola        | Doświadczenie | Praca Zdalna |
+|:---------:|:-----------:|:-------------:|:------------:|
 | Bplotka   | team lead   | Duże          | Nie          |
 | mmiszy    | programista | Duże          | Nie          |
 | nicra     | programista | Duże          | Nie          |
