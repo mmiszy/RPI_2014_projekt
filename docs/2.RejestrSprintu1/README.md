@@ -4,7 +4,9 @@ Scrum: Rejestr produktu i rejestr sprintu 1
 
 1. Produkt i użytkownicy
 ---
-(krótkie przypomnienie projektu i produktu, sylwetki użytkowników)
+Przedmiotem projektu jest przeglądarka internetowa **Firesocks**. 
+
+Produkt umożliwiać będzie szybkie, bezpieczne i ekfektywne przeglądanie zasobów internetowych z pełną obsługą multimediów, stanowiąc doskonałe rozwiązanie dla wszystkich internautów bez względu na stopień ich zaawansowania czy wiek.
 
 
 2. Scenariusze użycia systemu
