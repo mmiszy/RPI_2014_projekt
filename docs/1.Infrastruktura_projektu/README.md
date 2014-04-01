@@ -1,3 +1,13 @@
+**Michał Miszczyszyn** (137347)
+
+**Bartłomiej Płotka** (137378)
+
+**Marcin Piątkowski** (137371)
+
+------
+
+
+ 
 Opis projektu i produktu
 ====
 
