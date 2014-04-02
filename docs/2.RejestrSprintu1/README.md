@@ -20,7 +20,8 @@ Felek wiedział, że ten dzień odmienił na zawsze sposób korzystania z intern
 3. Rejestr produktu
 ---
 
-(wygenerowana z narzędzia wspomagającego tabela zestawiająca jednostki funkcjonalności produktu (cechy, user stories) z nadanymi im identyfikatorami, priorytetem dla użytkownika, oszacowaniem złożoności w story points)
+![](backlog.png)
+
 
 ###Wyjaśnienie jednostek i skal
 
