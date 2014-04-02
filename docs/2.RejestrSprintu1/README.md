@@ -71,4 +71,10 @@ Oczywiście oznaczenia te nie muszą wyczerpywać potrzeb oznaczeń zadań, dlat
 4. Rejestr sprintu 1
 ---
 
-(zakładana liczba sprintów, pojemność zespołu, cel sprintu 1, wygenerowana z narzędzia wspomagającego tabela zestawiająca jednostki funkcjonalności produktu (cechy, user stories), które zostały wybrane do realizacji w sprincie, uzasadnienie wyboru zakresu sprintu; jednostki funkcjonalności są rozbite na zadania wytwórcze dla zespołu Scrum i oszacowane w godzinach; rejestr pokazuje stan na początku sprintu)
+Zakładana liczba sprintów: 9
+
+Pojemność zespołu: 3 osoby
+
+Cel sprintu 1: Stworzenie wersji MVP produktu (Minimum viable product)
+
+![](sprint1.png """)
