@@ -43,7 +43,7 @@ Stworzenie wersji MVP produktu (Minimum viable product).
     <tbody>
         <tr>
             <td>
-            1) Starting situation:</br>
+            1) Starting situation:<br/>
 Brak zainstalowanego programu na systemie, pobrany instalator</br>
 2) Test Steps:</br>
 </br>
