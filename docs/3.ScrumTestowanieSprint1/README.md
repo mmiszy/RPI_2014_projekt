@@ -34,10 +34,16 @@ Stworzenie wersji MVP produktu (Minimum viable product).
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
 | 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
-
-|Opis testu |
-|:---- |
-| 1) Starting situation:</br>
+<table>
+    <thead>
+        <tr>
+            <th>Opis testu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            1) Starting situation:</br>
 Brak zainstalowanego programu na systemie, pobrany instalator</br>
 2) Test Steps:</br>
 </br>
@@ -60,7 +66,12 @@ Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunika
 Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
 Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
 Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji |
+Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 4. Wyniki testów
 ---
