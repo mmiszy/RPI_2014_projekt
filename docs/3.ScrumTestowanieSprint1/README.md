@@ -30,7 +30,7 @@ Stworzenie wersji MVP produktu (Minimum viable product).
 | ID        | Funkcja testowana           | Nazwa testu  | Opis testu |
 | :------------:|:-------------:| :-----:| :-----:| 
 | 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji | 1) Starting situation:
-Brak zainstalowanego programu na systemie, pobrany instalator.
+Brak zainstalowanego programu na systemie, pobrany instalator
 2) Test Steps:
 
 Włączenie aplikacji instalacyjnej
