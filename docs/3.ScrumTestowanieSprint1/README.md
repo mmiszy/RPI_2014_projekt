@@ -27,5 +27,33 @@ Stworzenie wersji MVP produktu (Minimum viable product).
 3. Przypadki testowe
 ---
 
+| ID        | Funkcja testowana           | Nazwa testu  | Opis testu |
+| :------------:|:-------------:| :-----:| :-----:| 
+| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji | 1) Starting situation:
+Brak zainstalowanego programu na systemie, pobrany instalator.
+2) Test Steps:
+
+Włączenie aplikacji instalacyjnej
+Postępowanie zgodnie z krokami
+Wybranie prostej, domyślnej instalacji
+Wybranie miejsca zapisu programu na dysku (ale użycue inputu)
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)
+Próba zostawienia pustego inputu
+Próba wpisania samych cyfr "3242"
+Próba wpisania "Programs" (względną ścieżka - błędna)
+Próba wpisania "D://Programs" (instniejącej ścieżki)
+Śledzenie paska postępu
+Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu
+Sprawdzenie, czy zainstalowały się tylko wybrane moduły
+Włączenie aplikacji
+3) Expected situation:
+Instalor się otwiera, pozwala na wpisanie lokalizacji.
+
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
+Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
+Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
+Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
+Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji |
+
 4. Wyniki testów
 ---
