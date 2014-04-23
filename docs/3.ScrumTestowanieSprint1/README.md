@@ -1,6 +1,10 @@
 3. Scrum: Testowanie sprint 1
 ===
 
+* Michał Miszczyszyn (137347)
+* Bartłomiej Płotka (137378)
+* Marcin Piątkowski (137371)
+
 1. O projekcie i sprincie
 ---
 
@@ -57,3 +61,10 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
 
 4. Wyniki testów
 ---
+
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
+![](5.png)
+![](6.png)
