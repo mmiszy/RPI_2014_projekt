@@ -37,27 +37,25 @@ Stworzenie wersji MVP produktu (Minimum viable product).
 
 |Opis testu |
 |:---- |
-|x|
-1) Starting situation:
-Brak zainstalowanego programu na systemie, pobrany instalator
-2) Test Steps:
-
-Włączenie aplikacji instalacyjnej
-Postępowanie zgodnie z krokami
-Wybranie prostej, domyślnej instalacji
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)
-Próba zostawienia pustego inputu
-Próba wpisania samych cyfr "3242"
-Próba wpisania "Programs" (względną ścieżka - błędna)
-Próba wpisania "D://Programs" (instniejącej ścieżki)
-Śledzenie paska postępu
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły
-Włączenie aplikacji
-3) Expected situation:
+| 1) Starting situation:</br>
+Brak zainstalowanego programu na systemie, pobrany instalator</br>
+2) Test Steps:</br>
+</br>
+Włączenie aplikacji instalacyjnej</br>
+Postępowanie zgodnie z krokami</br>
+Wybranie prostej, domyślnej instalacji</br>
+Wybranie miejsca zapisu programu na dysku (ale użycue inputu)</br>
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)</br>
+Próba zostawienia pustego inputu</br>
+Próba wpisania samych cyfr "3242"</br>
+Próba wpisania "Programs" (względną ścieżka - błędna)</br>
+Próba wpisania "D://Programs" (instniejącej ścieżki)</br>
+Śledzenie paska postępu</br>
+Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu</br>
+Sprawdzenie, czy zainstalowały się tylko wybrane moduły</br>
+Włączenie aplikacji</br>
+3) Expected situation:</br>
 Instalor się otwiera, pozwala na wpisanie lokalizacji.
-
 Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
 Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
 Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
