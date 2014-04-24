@@ -150,17 +150,17 @@ Przy rozpoczęciu pobierania (!) program zauważy że nie ma miejsca odpowiednie
     <tbody>
         <tr>
             <td>
-           1) Starting situation:
-Włączona aplikacja, brak plików ściąganych wcześniej
-2) Test Steps:
-- Wpisz istniejący adres strony, który ściągnie plik: 
-http://enauczanie.pg.gda.pl/moodle/mod/resource/view.php?id=11625
+           1) Starting situation:<br/>
+Włączona aplikacja, brak plików ściąganych wcześniej<br/>
+2) Test Steps:<br/>
+- Wpisz istniejący adres strony, który ściągnie plik: <br/>
+http://enauczanie.pg.gda.pl/moodle/mod/resource/view.php?id=11625<br/>
 
-- Sprawdź pasek postępu wraz z ilością pobranych kilobajtów
-- W momencie postępu 100% spróbuj otworzyć plik
+- Sprawdź pasek postępu wraz z ilością pobranych kilobajtów<br/>
+- W momencie postępu 100% spróbuj otworzyć plik<br/>
 
-3) Expected situation:
-Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia 
+3) Expected situation:<br/>
+Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia <br/>
             </td>
         </tr>
     </tbody>
@@ -180,15 +180,15 @@ Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia
     <tbody>
         <tr>
             <td>
-           1) Starting situation:
-Włączona aplikacja, brak plików ściąganych wcześniej, miejsce na dysku jest ograniczone do 3GB
-2) Test Steps:
-- Wpisz istniejący adres strony, który ściągnie duży plik (powyżej 4GB).
-- W momencie postępu 100% spróbuj otworzyć plik
-- Wejdź do zarządzania pobieranymi plikami
-- Sprawdź plik.
-
-3) Expected situation:
+           1) Starting situation:<br/>
+Włączona aplikacja, brak plików ściąganych wcześniej, miejsce na dysku jest ograniczone do 3GB<br/>
+2) Test Steps:<br/>
+- Wpisz istniejący adres strony, który ściągnie duży plik (powyżej 4GB).<br/>
+- W momencie postępu 100% spróbuj otworzyć plik<br/>
+- Wejdź do zarządzania pobieranymi plikami<br/>
+- Sprawdź plik.<br/>
+<br/>
+3) Expected situation:<br/>
 Element zacznie się ściągać, po dłuższym czasie będzie możliwość jego otwarcia., W module zarządznia plikami będzie data pobrania, jego wielkość i nazwa.
             </td>
         </tr>
@@ -209,19 +209,19 @@ Element zacznie się ściągać, po dłuższym czasie będzie możliwość jego 
     <tbody>
         <tr>
             <td>
-         1) Starting situation:
-Włączona aplikacja, wyczyszczona historia
-2) Test Steps:
-- Wpisz istniejący adres strony w polu wpisywania adresów
-- Po załadowaniu zawartości powtórz wróć do kroku 1 i wracaj tak 10 razy.
-- Guzikiem "cofnij" przywróć poprzednią zawartość strony.
-- Cofnij tak jeszcze raz
-- Cofnij tak jeszcze raz
-- Przełącz się na moduł historii przeglądania 
-- Sprawdź zawartość historii
-- Skasuj 3 pierwsze elementy.
-
-3) Expected situation:
+         1) Starting situation:<br/>
+Włączona aplikacja, wyczyszczona historia<br/>
+2) Test Steps:<br/>
+- Wpisz istniejący adres strony w polu wpisywania adresów<br/>
+- Po załadowaniu zawartości powtórz wróć do kroku 1 i wracaj tak 10 razy.<br/>
+- Guzikiem "cofnij" przywróć poprzednią zawartość strony.<br/>
+- Cofnij tak jeszcze raz<br/>
+- Cofnij tak jeszcze raz<br/>
+- Przełącz się na moduł historii przeglądania <br/>
+- Sprawdź zawartość historii<br/>
+- Skasuj 3 pierwsze elementy.<br/>
+<br/>
+3) Expected situation:<br/>
 Strona nie musi się załadować poprawnie - ten moduł nie jest sprawny. W module historii przeglądania będzie 13 rekordów z poprawnym adresem i czasem otwarcia. Skasowanie 3 elementów powiedzie się.
             </td>
         </tr>
@@ -242,16 +242,16 @@ Strona nie musi się załadować poprawnie - ten moduł nie jest sprawny. W modu
     <tbody>
         <tr>
             <td>
-           1) Starting situation:
-Włączona aplikacja, wyczyszczona historia
-2) Test Steps:
-- Wpisz istniejący adres strony w polu wpisywania adresów
-- Po załadowaniu zawartości powtórz wróć do kroku 1 i wracaj tak 10 razy.
-- Przełącz się na moduł historii przeglądania 
-- Sprawdź zawartość historii
-- Skasuj 3 pierwsze elementy.
-
-3) Expected situation:
+           1) Starting situation:<br/>
+Włączona aplikacja, wyczyszczona historia<br/>
+2) Test Steps:<br/>
+- Wpisz istniejący adres strony w polu wpisywania adresów<br/>
+- Po załadowaniu zawartości powtórz wróć do kroku 1 i wracaj tak 10 razy.<br/>
+- Przełącz się na moduł historii przeglądania<br/> 
+- Sprawdź zawartość historii<br/>
+- Skasuj 3 pierwsze elementy.<br/>
+<br/>
+3) Expected situation:<br/>
 Strona nie musi się załadować poprawnie - ten moduł nie jest sprawny. W module historii przeglądania będzie 10 rekordów z poprawnym adresem i czasem otwarcia. Skasowanie 3 elementów powiedzie się.
             </td>
         </tr>
@@ -262,7 +262,7 @@ Strona nie musi się załadować poprawnie - ten moduł nie jest sprawny. W modu
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
+| 43   | Est: 8h - Wykonanie podstawowego instalatora programu - Parent: #9  | Test: Zaawansowana instalacja programu |
 <table>
     <thead>
         <tr>
@@ -272,30 +272,22 @@ Strona nie musi się załadować poprawnie - ten moduł nie jest sprawny. W modu
     <tbody>
         <tr>
             <td>
-            1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
+          1) Starting situation:<br/>
+Brak zainstalowanego programu na systemie, pobrany instalator.<br/>
 2) Test Steps:<br/>
 <br/>
 Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
+- Postępowanie zgodnie z krokami<br/>
+- Wybranie zaawansowanej instalacji<br/>
+- Wybranie miejsca zapisu programu na dysku<br/>
+- Wybranie tylko niektórych modułów do zainstalowania (core, moduł bezpieczeństwa i tylko język polski)<br/>
+- Śledzenie paska postępu<br/>
+- Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
+- Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
+- Włączenie aplikacji<br/>
+<br/>
 3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+ Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie. Zainstalowano tylko podane moduły. Pasek postępu płynnie pokazywał postęp instalacji
             </td>
         </tr>
     </tbody>
@@ -305,7 +297,7 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
+| 42   | Est: 8h - Wykonanie podstawowego instalatora programu - Parent: #9  | Test: Prosta instalacja program ze sprawdzeniem walidacji |
 <table>
     <thead>
         <tr>
@@ -316,29 +308,20 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
         <tr>
             <td>
             1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
+Brak zainstalowanego programu na systemie, pobrany instalator.<br/>
 2) Test Steps:<br/>
 <br/>
-Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
+- Włączenie aplikacji instalacyjnej<br/>
+- Postępowanie zgodnie z krokami<br/>
+- Wybranie prostej instalacji (domyślnej)<br/>
+- Wybranie miejsca zapisu programu na dysku na którym nie ma wystarczająco miejsca<br/>
+- Ponowne wybranie lokalizacji , tym razem dobrej<br/>
+- Śledzenie paska postępu<br/>
+- Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
+- Włączenie aplikacji<br/>
+<br/>
 3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+Instalator pokazuje użytkownikowi że nie ma wystarczająco miejsca na danym dysku. Umożliwia ponowne wybranie lokalizacji. Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie. Pasek postępu płynnie pokazywał postęp instalacji
             </td>
         </tr>
     </tbody>
@@ -348,7 +331,7 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
+| 41   | Est: 8h - Wykonanie podstawowego instalatora programu - Parent: #9   | Test: Prosta instalacja programu |
 <table>
     <thead>
         <tr>
@@ -358,30 +341,19 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     <tbody>
         <tr>
             <td>
-            1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
+           1) Starting situation:<br/>
+Brak zainstalowanego programu na systemie, pobrany instalator.<br/>
 2) Test Steps:<br/>
+- Włączenie aplikacji instalacyjnej<br/>
+- Postępowanie zgodnie z krokami<br/>
+- Wybranie prostej instalacji (domyślnej)<br/>
+- Wybranie miejsca zapisu programu na dysku<br/>
+- Śledzenie paska postępu<br/>
+- Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
+- Włączenie aplikacji<br/>
 <br/>
-Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
 3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+ Aplikacja zapisana w poprwanym miejscu na dysku, otwiera się poprawnie. Pasek postępu płynnie pokazywał postęp instalacji
             </td>
         </tr>
     </tbody>
