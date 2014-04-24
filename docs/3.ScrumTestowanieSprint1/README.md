@@ -72,6 +72,8 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     </tbody>
 </table>
 
+---
+
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
 | 49   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania adresu http/https |
@@ -84,25 +86,57 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     <tbody>
         <tr>
             <td>
-            1) Starting situation:
-Włączona aplikacja
-2) Test Steps:
-- Wpisujemy adres "dziwny adres"
-- Wpisujemy adres "http://dziwny adres"
-- Wpisujemy adres "http://dziwny_adres"
-- Wpisujemy adres "10.122.34.123"
-- Wpisujemy adres "10.122.34.270"
+            1) Starting situation:<br/>
+Włączona aplikacja<br/>
+2) Test Steps:<br/>
+- Wpisujemy adres "dziwny adres"<br/>
+- Wpisujemy adres "http://dziwny adres"<br/>
+- Wpisujemy adres "http://dziwny_adres"<br/>
+- Wpisujemy adres "10.122.34.123"<br/>
+- Wpisujemy adres "10.122.34.270"<br/>
+<br/>
+3) Expected situation:<br/>
+- adres "dziwny adres"  -> ten napis zostanie wpisany do domyślnej wyszukiwarki<br/>
+- adres "http://dziwny adres" -> ten napis zostanie wpisany do domyślnej wyszukiwarki<br/>
+- adres "http://dziwny_adres" -> po tym adresie pójdzie request.(strona not found)<br/>
+- adres "10.122.34.123" -> po tym adresie pójdzie request (strona not found)<br/>
+- adres "10.122.34.270" -> ten napis zostanie wpisany do domyślnej wyszukiwarki (nie ma takiego adresu ip)<br/>
+            </td><br/>
+        </tr>
+    </tbody>
+</table>
 
-3) Expected situation:
-- adres "dziwny adres"  -> ten napis zostanie wpisany do domyślnej wyszukiwarki
-- adres "http://dziwny adres" -> ten napis zostanie wpisany do domyślnej wyszukiwarki
-- adres "http://dziwny_adres" -> po tym adresie pójdzie request.(strona not found)
-- adres "10.122.34.123" -> po tym adresie pójdzie request (strona not found)
-- adres "10.122.34.270" -> ten napis zostanie wpisany do domyślnej wyszukiwarki (nie ma takiego adresu ip)
+---
+
+| ID        | Funkcja testowana           | Nazwa testu  | 
+| :------------:|:-------------:| :-----:| 
+| 48   | Est: 5h - Wykonanie możliwości ściągania plików - zarządzanie plikami - Parent: #32  |Test: Sprawdzenie modułu ściągania plików, zbyt duży plik |
+<table>
+    <thead>
+        <tr>
+            <th>Opis testu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            1) Starting situation:<br/>
+Włączona aplikacja, brak plików ściąganych wcześniej, miejsce na dysku jest ograniczone do 3GB<br/>
+2) Test Steps:<br/>
+- Wpisz istniejący adres strony, który ściągnie duży plik (powyżej 4GB). Miejsca na dysku jest 3GB.<br/>
+- Po przeczytaniu komunikatu że plik sie nie miesci wybierz inną lokalizacje dla pliku (tam gdzie sie zmieści)<br/>
+- W momencie postępu 100% spróbuj otworzyć plik<br/>
+- Wejdź do zarządzania pobieranymi plikami<br/>
+- Sprawdź plik.<br/>
+<br/>
+3) Expected situation:<br/>
+Przy rozpoczęciu pobierania (!) program zauważy że nie ma miejsca odpowiedniego na ten plik. Pokaże interfejst, w którym można wpisać nową lokalizacje. Element zacznie się ściągać, po dłuższym czasie będzie możliwość jego otwarcia., W module zarządznia plikami będzie data pobrania, jego wielkość i nazwa.
             </td>
         </tr>
     </tbody>
 </table>
+
+---
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
@@ -145,46 +179,7 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     </tbody>
 </table>
 
-| ID        | Funkcja testowana           | Nazwa testu  | 
-| :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
-<table>
-    <thead>
-        <tr>
-            <th>Opis testu</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-            1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
-2) Test Steps:<br/>
-<br/>
-Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
-3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
-            </td>
-        </tr>
-    </tbody>
-</table>
+---
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
@@ -227,46 +222,7 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     </tbody>
 </table>
 
-| ID        | Funkcja testowana           | Nazwa testu  | 
-| :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
-<table>
-    <thead>
-        <tr>
-            <th>Opis testu</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-            1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
-2) Test Steps:<br/>
-<br/>
-Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
-3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
-            </td>
-        </tr>
-    </tbody>
-</table>
+---
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
@@ -309,46 +265,7 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
     </tbody>
 </table>
 
-| ID        | Funkcja testowana           | Nazwa testu  | 
-| :------------:|:-------------:| :-----:| 
-| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
-<table>
-    <thead>
-        <tr>
-            <th>Opis testu</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-            1) Starting situation:<br/>
-Brak zainstalowanego programu na systemie, pobrany instalator<br/>
-2) Test Steps:<br/>
-<br/>
-Włączenie aplikacji instalacyjnej<br/>
-Postępowanie zgodnie z krokami<br/>
-Wybranie prostej, domyślnej instalacji<br/>
-Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
-Próba zostawienia pustego inputu<br/>
-Próba wpisania samych cyfr "3242"<br/>
-Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
-Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
-Śledzenie paska postępu<br/>
-Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
-Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
-Włączenie aplikacji<br/>
-3) Expected situation:<br/>
-Instalor się otwiera, pozwala na wpisanie lokalizacji.
-Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
-Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
-Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
-Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
-Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
-            </td>
-        </tr>
-    </tbody>
-</table>
+---
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
@@ -390,6 +307,94 @@ Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu apli
         </tr>
     </tbody>
 </table>
+
+---
+
+| ID        | Funkcja testowana           | Nazwa testu  | 
+| :------------:|:-------------:| :-----:| 
+| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
+<table>
+    <thead>
+        <tr>
+            <th>Opis testu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            1) Starting situation:<br/>
+Brak zainstalowanego programu na systemie, pobrany instalator<br/>
+2) Test Steps:<br/>
+<br/>
+Włączenie aplikacji instalacyjnej<br/>
+Postępowanie zgodnie z krokami<br/>
+Wybranie prostej, domyślnej instalacji<br/>
+Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
+Próba zostawienia pustego inputu<br/>
+Próba wpisania samych cyfr "3242"<br/>
+Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
+Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
+Śledzenie paska postępu<br/>
+Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
+Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
+Włączenie aplikacji<br/>
+3) Expected situation:<br/>
+Instalor się otwiera, pozwala na wpisanie lokalizacji.
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
+Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
+Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
+Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
+Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+| ID        | Funkcja testowana           | Nazwa testu  | 
+| :------------:|:-------------:| :-----:| 
+| 50   | Est: 8h - Wykonanie podstawowego interfejsu użytkownika - walidacja inputów- Parent: #9  | Test: Sprawdznie walidatora dla inputów - pole wpisania lokalizacji instalacji |
+<table>
+    <thead>
+        <tr>
+            <th>Opis testu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+            1) Starting situation:<br/>
+Brak zainstalowanego programu na systemie, pobrany instalator<br/>
+2) Test Steps:<br/>
+<br/>
+Włączenie aplikacji instalacyjnej<br/>
+Postępowanie zgodnie z krokami<br/>
+Wybranie prostej, domyślnej instalacji<br/>
+Wybranie miejsca zapisu programu na dysku (ale użycue inputu)<br/>
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki)<br/>
+Próba zostawienia pustego inputu<br/>
+Próba wpisania samych cyfr "3242"<br/>
+Próba wpisania "Programs" (względną ścieżka - błędna)<br/>
+Próba wpisania "D://Programs" (instniejącej ścieżki)<br/>
+Śledzenie paska postępu<br/>
+Po zakończeniu, sprawdzenie czy aplikacja zapisała się w wybranym miejscu<br/>
+Sprawdzenie, czy zainstalowały się tylko wybrane moduły<br/>
+Włączenie aplikacji<br/>
+3) Expected situation:<br/>
+Instalor się otwiera, pozwala na wpisanie lokalizacji.
+Próba wpisania znaków "X://Programs" ("nie istniejącej ścieżki) -> komunikat "nie ma takiej ściezki"
+Próba zostawienia pustego inputu -> komunikat "wpisz lokalizacje!"
+Próba wpisania samych cyfr "3242" -> komunikat "nie ma takiej ściezki"
+Próba wpisania "Programs" (względną ścieżka - błędna) -> komunikat "nie ma takiej ścieżki"
+Próba wpisania "D://Programs" (instniejącej ścieżki) -> brak komunikatu aplikacja przechodzi do instalacji Aplikacja zapisana w poprawnym miejscu na dysku, otwiera się poprawnie.. Pasek postępu płynnie pokazywał postęp instalacji
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+---
 
 | ID        | Funkcja testowana           | Nazwa testu  | 
 | :------------:|:-------------:| :-----:| 
