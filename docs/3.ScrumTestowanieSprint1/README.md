@@ -151,16 +151,15 @@ Przy rozpoczęciu pobierania (!) program zauważy że nie ma miejsca odpowiednie
         <tr>
             <td>
            1) Starting situation:<br/>
-Włączona aplikacja, brak plików ściąganych wcześniej<br/>
+Włączona aplikacja, brak plików ściąganych wcześniej, miejsce na dysku jest ograniczone do 3GB<br/>
 2) Test Steps:<br/>
-- Wpisz istniejący adres strony, który ściągnie plik: <br/>
-http://enauczanie.pg.gda.pl/moodle/mod/resource/view.php?id=11625<br/>
-
-- Sprawdź pasek postępu wraz z ilością pobranych kilobajtów<br/>
+- Wpisz istniejący adres strony, który ściągnie duży plik (powyżej 4GB).<br/>
 - W momencie postępu 100% spróbuj otworzyć plik<br/>
-
+- Wejdź do zarządzania pobieranymi plikami<br/>
+- Sprawdź plik.<br/>
+<br/>
 3) Expected situation:<br/>
-Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia <br/>
+Element zacznie się ściągać, po dłuższym czasie będzie możliwość jego otwarcia., W module zarządznia plikami będzie data pobrania, jego wielkość i nazwa.
             </td>
         </tr>
     </tbody>
@@ -180,16 +179,17 @@ Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia <b
     <tbody>
         <tr>
             <td>
-           1) Starting situation:<br/>
-Włączona aplikacja, brak plików ściąganych wcześniej, miejsce na dysku jest ograniczone do 3GB<br/>
+             1) Starting situation:<br/>
+Włączona aplikacja, brak plików ściąganych wcześniej<br/>
 2) Test Steps:<br/>
-- Wpisz istniejący adres strony, który ściągnie duży plik (powyżej 4GB).<br/>
+- Wpisz istniejący adres strony, który ściągnie plik: <br/>
+http://enauczanie.pg.gda.pl/moodle/mod/resource/view.php?id=11625<br/>
+
+- Sprawdź pasek postępu wraz z ilością pobranych kilobajtów<br/>
 - W momencie postępu 100% spróbuj otworzyć plik<br/>
-- Wejdź do zarządzania pobieranymi plikami<br/>
-- Sprawdź plik.<br/>
-<br/>
+
 3) Expected situation:<br/>
-Element zacznie się ściągać, po dłuższym czasie będzie możliwość jego otwarcia., W module zarządznia plikami będzie data pobrania, jego wielkość i nazwa.
+Element zacznie się ściągać, kiedy będzie 100% jest możliwy do otwarcia <br/>
             </td>
         </tr>
     </tbody>
