@@ -57,7 +57,7 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 4. Przebieg projektu (omówienie struktury projektu w czasie oraz przebiegu pracy realizowanej w projekcie) 
 ---
 
-###Fazy i iteracje (podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające przejście do następnej fazy) 
+### 4.1 Fazy i iteracje (podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające przejście do następnej fazy) 
 
 * Inception
   * I1
@@ -164,7 +164,39 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	  * Wszystkie błędy zauważone przez klientów zostały poprawione
 	  * Aplikacja jest dostępna dla potencjalnych klientów
 
-### Wydania (lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
+### 4.2 Wydania
+
+<table>
+	<thead>
+		<tr>
+			<th width="110">Wersja</th>
+			<th width="100">Data</th>
+			<th>Typ wydania</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>prototyp</td>
+			<td>1,5 miesiąca po rozpoczęciu prac</td>
+			<td>dostępna jedynie na jednej platformie: Windows (żeby uniknąć rozdzielania kodu)</td>
+		</tr>
+		<tr>
+			<td>wersja alfa</td>
+			<td>3 miesiące</td>
+			<td>zawiera większość funkcji produktu, jednak nie wszystkie są przetestowane</td>
+		</tr>
+		<tr>
+			<td>wersja beta</td>
+			<td>6 miesięcy</td>
+			<td>zawiera wszystkie funkcje produktu, znaczna większość jest przetestowana, mogą występować bugi specyficzne dla platformy</td>
+		</tr>
+		<tr>
+			<td>wersja finalna 1.0</td>
+			<td>7 miesięcy</td>
+			<td>stabilna beta w momencie zakończenia procesu RUP</td>
+		</tr>
+	</tbody>
+</table>
 
 ### Harmonogram (określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji projektu wykonany w narzędziu do harmonogramowania)
 
