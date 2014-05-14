@@ -102,9 +102,42 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	  * Dotychczasowa implementacja nie budzi zastrzeżeń i pozwala na rozwinięcie do pełnej funkcjonalności 
 * Construction
   * C1
-  * C2
+    * Opisanie dodatkowych przypadków użycia
+	* Zaprojektowanie dodatkowych podsystemów
+	* Implementacja przypadków użycia i podsystemów
+	* Integracja produktu i zweryfikowanie funkcjonalności i wymagań
+	* Zaprojektowanie, wykonanie i analiza testów
+	* Przewidziane artefakty:
+	  * Kolejna wersja developerska oprogramowania
+	  * Testy zaimplementowanych funkcjonalności
+	* Kryteria akceptacji:
+	  * Implementacja zaplanowanych przypadków użycia jest poprawna i pokrywa zaplanowaną funkcjonalność
+	  * Przeprowadzone testy nie wykazują błędów bądź niedoróbek
+  * C2 
+    * Opisanie dodatkowych przypadków użycia
+	* Implementacja przypadków użycia
+	* Integracja produktu i zweryfikowanie funkcjonalności i wymagań
+	* Zaprojektowanie, wykonanie i analiza testów
+	* Przewidziane artefakty:
+	  * Kolejna wersja developerska oprogramowania
+	  * Testy zaimplementowanych funkcjonalności
+	* Kryteria akceptacji:
+	  * Implementacja zaplanowanych przypadków użycia jest poprawna i pokrywa zaplanowaną funkcjonalność
+	  * Przeprowadzone testy nie wykazują błędów bądź niedoróbek
   * C3
-    
+    * Opisanie dodatkowych przypadków użycia
+	* Implementacja przypadków użycia
+	* Integracja produktu i zweryfikowanie funkcjonalności i wymagań
+	* Zaplanowanie wersji beta projektu
+	* Zaplanowanie i zaprojektowanie systemów pomocy
+	* Zaprojektowanie, wykonanie i analiza testów
+	* Przewidziane artefakty:
+	  * Wersja beta oprogramowania
+	  * Testy zaimplementowanych funkcjonalności
+	* Kryteria akceptacji:
+	  * Implementacja zaplanowanych przypadków użycia jest poprawna i pokrywa zaplanowaną funkcjonalność
+	  * Przeprowadzone testy nie wykazują błędów bądź niedoróbek
+	  * Wersja beta jest gotowa do dostarczenia do klienta
 * Transition
   * T1
     * Dostarczenie wersji beta do klientów
