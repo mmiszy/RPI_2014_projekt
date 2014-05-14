@@ -22,12 +22,12 @@ Projekt zaplanowano na wykonanie w ciągu kolejnych 35 tygodni, czas ten rozdysp
 ###Zespół:
 | Imię i nazwisko     | Pseudonim | Rola        | Doświadczenie | Praca Zdalna |
 |:-------------------:|:---------:|:-----------:|:-------------:|:------------:|
-| Bartłomiej Koder    | Bplotka   | team lead   | Duże          | Nie          |
-| Michał Koderski     | mmiszy    | programista | Duże          | Nie          |
-| Marcin Kodoklep     | nicra     | programista | Duże          | Nie          |
-| Kszysztof Lajer     | klayer88  | design & UX | Średnie       | Tak          |
-| Jan Fotoszopski     | graficzex | front-end   | Duże          | Nie          |
-| Sebastian Rynkowski | @itgg2    | analityk IT | Średnie       | Tak          | 
+| Bartłomiej Koder    | Bplotka   | team lead   | Duże projekty          | Nie          |
+| Michał Koderski     | mmiszy    | programista | Logika rozproszona, cpp        | Nie          |
+| Marcin Kodoklep     | nicra     | programista | Sztuczna inteligencja          | Nie          |
+| Kszysztof Lajer     | klayer88  | design & UX | Wizualizacje      | Tak          |
+| Jan Fotoszopski     | graficzex | front-end   | Web - front-end          | Nie          |
+| Sebastian Rynkowski | @itgg2    | analityk IT | Startup-owe projekty       | Tak          | 
 
 ###Wyjściowy produkt:
 Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa dostępna dla użytkownika w postaci instalatora umożliwiającego instalację produktu na dysku.
