@@ -108,7 +108,7 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	* Integracja produktu i zweryfikowanie funkcjonalności i wymagań
 	* Zaprojektowanie, wykonanie i analiza testów
 	* Przewidziane artefakty:
-	  * Kolejna wersja developerska oprogramowania
+	  * Wersja developerska oprogramowania (prototyp)
 	  * Testy zaimplementowanych funkcjonalności
 	* Kryteria akceptacji:
 	  * Implementacja zaplanowanych przypadków użycia jest poprawna i pokrywa zaplanowaną funkcjonalność
@@ -119,7 +119,7 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	* Integracja produktu i zweryfikowanie funkcjonalności i wymagań
 	* Zaprojektowanie, wykonanie i analiza testów
 	* Przewidziane artefakty:
-	  * Kolejna wersja developerska oprogramowania
+	  * Wersja alfa oprogramowania
 	  * Testy zaimplementowanych funkcjonalności
 	* Kryteria akceptacji:
 	  * Implementacja zaplanowanych przypadków użycia jest poprawna i pokrywa zaplanowaną funkcjonalność
@@ -200,31 +200,34 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 
 ### Harmonogram (określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji projektu wykonany w narzędziu do harmonogramowania)
 
-Inception
+Inception (10%)
   * I1
-    * 1,5 tygodnia
+    * 15 dni
   
-* Elaboration (razem: 4,5 tygodnia)
+* Elaboration (razem: 45dni -> 30%)
   * E1
-    * 3,5 tygodnia
+    * 35 dni
   * E2
-    * 1 tydzień
+    * 10 dni
  
-* Construction (razem 8 tyg)
+* Construction (razem 75 dni -> 50%)
   * C1
-    * 3 tygodnia
+    * 27 dni
   * C2 
-    * 2 tygodnia
+    * 27 dni
   * C3
-    * 3 tygodnia 
+    * 19 dni 
 
-* Transition
+* Transition (10%)
   * T1
-    * 1,5 tygodnia
+    * 15 dni
 
 * Evolution
   * En
     * Do końca życia produktu!
+
+
+Terminy mogą się nakładać tak jak jest zamieszczone na diagramie Gantta:
 
 
 
