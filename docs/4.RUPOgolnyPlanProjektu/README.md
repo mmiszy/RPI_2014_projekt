@@ -77,7 +77,7 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	  * Plan tworzenia oprogramowania pokrywa funkcjonalność i jest możliwy do zrealizowania
 	  * Lista ryzyk pokrywa większość dających się przewidzieć problemów
 	  * Wybrana jest architektura i narzędzia umożliwiające zrealizowanie projektu
-*Elaboration
+* Elaboration
   * E1
     * Instalacja i testowanie architektury
 	* Instalacja i testowanie narzędzi
@@ -100,10 +100,10 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	* Kryteria akceptacji:
 	  * Architektura i narzędzia są gotowe do dalszych etapów, ich użycie nie wiąże się ze zbędnym ryzykiem
 	  * Dotychczasowa implementacja nie budzi zastrzeżeń i pozwala na rozwinięcie do pełnej funkcjonalności 
-*Construction
+* Construction
   * C1
-*Transition
-*Evolution
+* Transition
+* Evolution
 
 ### Wydania (lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
 
