@@ -35,23 +35,40 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 3. Organizacja zespołu
 ---
 
-| Rola                     | Imię i nazwisko     |
-|:------------------------:|:-------------------:|
-| Kierownik projektu       | Bartłomiej Koder    |
-| Architekt oprogramowania | Michał Koderski     |
-| Analityk biznesowy       | Sebastian Rynkowski |
-| Analityk systemowy       | Marcin Kodoklep     |
-| Specyfikujący wymagania  | Bartłomiej Koder    |
-| Projektant               | Kszysztof Lajer     |
-| Programista              |                     |
-| Integrator               | Michał Koderski     |
-| Kierownik testów         |                     |
-| Analityk testów          |                     |
-| Projektant testów        |                     |
-| Tester                   | Marcin Kodoklep     |
-| Redaktor Techniczny      |                     |
-| Twórca szkoleń           |                     |
-| Grafik                   | Jan Fotoszopski     |
-| Inżynier procesu         | Michał Koderski     |
-| Specjalista ds. narzędzi | Marcin Kodoklep     |
-| Kontrolerzy jakości      | Michał Koderski     |
+| Rola                     | Imię i nazwisko                      |
+|:------------------------:|:------------------------------------:|
+| Kierownik projektu       | Bartłomiej Koder                     |
+| Architekt oprogramowania | Michał Koderski                      |
+| Analityk biznesowy       | Sebastian Rynkowski                  |
+| Analityk systemowy       | Marcin Kodoklep                      |
+| Specyfikujący wymagania  | Bartłomiej Koder                     |
+| Projektant               | Kszysztof Lajer                      |
+| Programista              | Marcin Kodoklep, Michał Koderski     |
+| Integrator               | Michał Koderski                      |
+| Kierownik testów         | Bartłomiej Koder                     |
+| Analityk testów          | Marcin Kodoklep, Sebastian Rynkowski |
+| Projektant testów        | Bartłomiej Koder                     |
+| Tester                   | Marcin Kodoklep, Michał Koderski     |
+| Grafik                   | Jan Fotoszopski, Kszysztof Lajer     |
+| Inżynier procesu         | Michał Koderski                      |
+| Specjalista ds. narzędzi | Marcin Kodoklep                      |
+| Kontrolerzy jakości      | Michał Koderski, Bartłomiej Koder    |
+
+4. Przebieg projektu 
+(omówienie struktury projektu w czasie oraz przebiegu pracy realizowanej w projekcie) 
+4.1. Fazy i iteracje 
+(podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów 
+i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające 
+przejście do następnej fazy) 
+4.2. Wydania 
+(lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
+4.3. Harmonogram 
+(określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji 
+projektu wykonany w narzędziu do harmonogramowania)
+
+
+
+
+
+
+
