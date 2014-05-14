@@ -102,8 +102,34 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 	  * Dotychczasowa implementacja nie budzi zastrzeżeń i pozwala na rozwinięcie do pełnej funkcjonalności 
 * Construction
   * C1
+  * C2
+  * C3
+    
 * Transition
+  * T1
+    * Dostarczenie wersji beta do klientów
+	* Analiza feedbacku
+	* Poprawianie błędów i niedoróbek
+	* Dokończenie systemu pomocy i systemów pobocznych
+	* Przygotowanie wersji do wydania
+	* Dostarczenie do klienta
+	* Przewidziane artefakty:
+	  * Wersja beta poprawiona na podstawie feedbacku klientów
+	  * Wersja gotowa do wydania
+	* Kryteria akceptacji:
+	  * Wszystkie błędy zauważone przez klientów zostały poprawione
+	  * Aplikacja jest dostępna dla potencjalnych klientów
 * Evolution
+  * En
+    * Analiza zauważonych błędów przez klientów bądź testerów
+	* Poprawienie błędów
+	* Przygotowanie kolejnej wersji
+	* Dodanie aktualnej wersji do systemu aktualizacji
+	* Przewidziane artefakty:
+	  * Kolejna wersja poprawiona o zauważone błędy
+	* Kryteria akceptacji:
+	  * Wszystkie błędy zauważone przez klientów zostały poprawione
+	  * Aplikacja jest dostępna dla potencjalnych klientów
 
 ### Wydania (lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
 
