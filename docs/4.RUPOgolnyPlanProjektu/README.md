@@ -59,7 +59,7 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 
 ###Fazy i iteracje (podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające przejście do następnej fazy) 
 
-*Inception
+* Inception
   * I1
     * Zdefiniowanie wizji
 	* Zdefiniowanie zasięgu projektu
