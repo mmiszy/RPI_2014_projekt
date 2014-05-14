@@ -200,6 +200,27 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 
 ### Harmonogram (określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji projektu wykonany w narzędziu do harmonogramowania)
 
+Inception
+  * I1
+    * 1,5 tygodnia
+* Elaboration (razem: 4,5 tygodnia)
+  * E1
+    * 3,5 tygodnia
+  * E2
+    * 1 tydzień
+* Construction (razem 8 tyg)
+  * C1
+    * 3 tygodnia
+  * C2 
+    * 2 tygodnia
+  * C3
+    * 3 tygodnia 
+* Transition
+  * T1
+    * 1,5 tygodnia
+* Evolution
+  * En
+    * Do końca życia produktu!
 
 
 
