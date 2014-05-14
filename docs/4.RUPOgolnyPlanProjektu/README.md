@@ -54,17 +54,14 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 | Specjalista ds. narzędzi | Marcin Kodoklep                      |
 | Kontrolerzy jakości      | Michał Koderski, Bartłomiej Koder    |
 
-4. Przebieg projektu 
-(omówienie struktury projektu w czasie oraz przebiegu pracy realizowanej w projekcie) 
-4.1. Fazy i iteracje 
-(podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów 
-i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające 
-przejście do następnej fazy) 
-4.2. Wydania 
-(lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
-4.3. Harmonogram 
-(określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji 
-projektu wykonany w narzędziu do harmonogramowania)
+4. Przebieg projektu (omówienie struktury projektu w czasie oraz przebiegu pracy realizowanej w projekcie) 
+---
+
+###Fazy i iteracje (podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające przejście do następnej fazy) 
+
+### Wydania (lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
+
+### Harmonogram (określenie terminu rozpoczęcia i zakończenia faz i iteracji, diagram Gantta faz i iteracji projektu wykonany w narzędziu do harmonogramowania)
 
 
 
