@@ -11,7 +11,7 @@
 
 Przedmiotem projektu jest przeglądarka internetowa Firesocks.
 
-Produkt umożliwiać będzie szybkie, bezpieczne i ekfektywne przeglądanie zasobów internetowych z pełną obsługą multimediów, stanowiąc doskonałe rozwiązanie dla wszystkich internautów bez względu na stopień ich zaawansowania czy wiek.
+Produkt umożliwiać będzie szybkie, bezpieczne i efektywne przeglądanie zasobów internetowych z pełną obsługą multimediów, stanowiąc doskonałe rozwiązanie dla wszystkich internautów bez względu na stopień ich zaawansowania czy wiek.
 
 2. Założenia planu
 ---
@@ -58,6 +58,52 @@ Produktem wyjściowym będzie w pełni funkcjonalna przeglądarka internetowa do
 ---
 
 ###Fazy i iteracje (podział na fazy zgodne z RUP oraz iteracje tych faz, dla każdej iteracji określenie celów i głównych produktów – artefaktów, kryteria akceptacji produktów danej fazy umożliwiające przejście do następnej fazy) 
+
+*Inception
+  * I1
+    * Zdefiniowanie wizji
+	* Zdefiniowanie zasięgu projektu
+	* Zdefiniowanie architektury i narzędzi
+	* Stworzenie biznesowych przypadków użycia (use case)
+	* Stworzenie planu tworzenia oprogramowania
+	* Przewidziane artefakty:
+	  * Wizja systemu
+	  * Przypadki użycia
+	  * Lista przewidzianych ryzyk
+	  * Plan tworzenia oprogramowania
+	  * Plan iteracji
+	* Kryteria akceptacji:
+	  * Wizja jak i przypadki użycia pokrywają przewidywaną funkcjonalność
+	  * Plan tworzenia oprogramowania pokrywa funkcjonalność i jest możliwy do zrealizowania
+	  * Lista ryzyk pokrywa większość dających się przewidzieć problemów
+	  * Wybrana jest architektura i narzędzia umożliwiające zrealizowanie projektu
+*Elaboration
+  * E1
+    * Instalacja i testowanie architektury
+	* Instalacja i testowanie narzędzi
+	* Zweryfikowanie szczegółów wymagań
+	* Przynajmniej częściowe zaimplementowanie przypadków użycia z wysokim priorytetem
+	* Przewidziane artefakty:
+	  * Zweryfikowana architektura i narzędzia
+	  * Lista funkcjonalności zweryfikowana pod kątem możliwości architektury i narzędzi
+	  * Częściowo zaimplementowane przypadki użycia z wysokim priorytetem
+	* Kryteria akceptacji:
+	  * Wybrane środki do stworzenia projektu są właściwe pod kątem planowanej funkcjonalności, bezpieczeństwa, łatwości używania jak i stabilności
+	  * Dotychczasowa implementacja nie budzi zastrzeżeń i pozwala na rozwinięcie do pełnej funkcjonalności 
+  * E2
+    * Zmniejszenie ryzyka związanego z wybraną architekturą
+	* Zakończenie instalacji i testów architektury oraz narzędzi
+	* Przynajmniej częściowa implementacja dodatkowych przypadków użycia
+	* Przewidziane artefakty:
+	  * Gotowa architektura wraz z narzędziami, zminimalizowane ryzyko związane z ich użyciem
+	  * Częściowo zaimplementowane dodatkowe przypadki użycia
+	* Kryteria akceptacji:
+	  * Architektura i narzędzia są gotowe do dalszych etapów, ich użycie nie wiąże się ze zbędnym ryzykiem
+	  * Dotychczasowa implementacja nie budzi zastrzeżeń i pozwala na rozwinięcie do pełnej funkcjonalności 
+*Construction
+  * C1
+*Transition
+*Evolution
 
 ### Wydania (lista wydań oprogramowania, zakładana data, typ wydania (demo, beta itp.)) 
 
