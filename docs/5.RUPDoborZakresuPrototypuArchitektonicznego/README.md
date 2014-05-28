@@ -10,7 +10,10 @@
 
 1. O projekcie
 ---
-(krótkie przypomnienie celu i zakresu projektu, ograniczeń)
+Przedmiotem projektu jest przeglądarka internetowa Firesocks.
+
+Produkt umożliwiać będzie szybkie, bezpieczne i efektywne przeglądanie zasobów internetowych z pełną obsługą multimediów, stanowiąc doskonałe rozwiązanie dla wszystkich internautów bez względu na stopień ich zaawansowania czy wiek.
+
 
 2. Model przypadków użycia
 ---
